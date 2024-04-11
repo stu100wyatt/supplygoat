@@ -3,7 +3,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Parameters:
   EKSIAMRoleName:
     Type: String
-    Description: The name of the IAM role for the EKS service to assume.
+    Description: The name of the IAM role for the EKS service to assume - testing for sw
   EKSClusterName:
     Type: String
     Description: The desired name of your AWS EKS Cluster.
